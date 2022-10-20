@@ -170,7 +170,7 @@ img {
 .current-time {
   font-size: 35px;
   font-weight: 100;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   letter-spacing: 1px;
 }
 .current-date {
@@ -211,7 +211,7 @@ h1 {
   color: #f9f9f9;
   font-family: "Oxygen", sans-serif;
   letter-spacing: 7px;
-  margin-top: 50px;
+  margin: 50px 0;
 }
 
 .container {
@@ -231,9 +231,10 @@ h1 {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  min-height: 500px;
+  min-height: 400px;
   position: relative;
   background-position-x: -30px;
+  margin:0;
 }
 
 .title {
@@ -283,7 +284,7 @@ div#txt {
   float: right;
   position: relative;
   left: 10px;
-  bottom: 40px;
+  bottom:40px;
 }
 
 .temperature p {
@@ -305,23 +306,21 @@ div#txt {
 }
 
 .forecast-icon {
-  padding: 2px 0;
+  padding: 5px 0;
   /* background: white; */
 }
 
 .today-weather h3 {
   text-transform: capitalize;
-  font-size: 40px;
+  font-size: 30px;
   color: #fff;
   width: 80%;
-  margin: 0 auto 5px;
-  padding-bottom: 3px;
   border-width: thin;
   border-bottom: 1px solid #eee;
 }
 
 .today-weather ul li {
-  width: 80%;
+  width: 74%;
   margin: 0 auto;
   line-height: 39px;
   border-width: thin;
@@ -329,12 +328,10 @@ div#txt {
   color: #eee;
   font-weight: 600;
   text-align: left;
-  padding-left: 20px;
 }
 
 .today-weather ul li span {
   float: right;
-  padding-right: 10px;
 }
 
 .today-weather ul li:nth-child(5) {
@@ -538,7 +535,6 @@ div#txt {
   }
   .date {
     font-size: 22px;
-    padding-top: 5px;
   }
   .temperature {
     text-align: center;
@@ -549,7 +545,7 @@ div#txt {
   }
   .temperature p {
     font-size: 60px;
-    padding-bottom: 5px;
+    padding-bottom: 15px;
   }
   .forecast-icon img {
     width: 65px;
@@ -610,7 +606,7 @@ div#txt {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 5px;
+  margin-bottom: 15px;
   position: relative;
   z-index: 2;
 }
@@ -630,7 +626,7 @@ div#txt {
 }
 .search-box .search-bar {
   border: none;
-  padding: 5px 11px;
+  padding: 10px 11px;
   background: transparent;
   color: white;
   border-bottom: 1px solid;
@@ -645,7 +641,7 @@ div#txt {
   transition: all 1s ease-in-out;
 }
 .mb-icon {
-  height: 80%;
+  height: 100%;
   position: absolute;
   top: 34%;
   left: 36%;
